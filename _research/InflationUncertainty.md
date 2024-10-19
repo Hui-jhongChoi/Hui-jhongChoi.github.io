@@ -8,7 +8,7 @@ excerpt: 'Inflation uncertainty is an undeniable factor in economic decision-mak
 # date: 2023
 status: 'R&R'
 venue: 'Journal of Financial Econometrics'
-external_link: 'https://example.com/full-paper-link'  # Link to the external website
+link: 'https://example.com/full-paper-link'  # Link to the external website
 slidesurl: # 'https://example.com/full-paper-link'  # Link to the external website
 paperurl: # 'https://example.com/full-paper-link'  # Link to the external website
 citation: # 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
