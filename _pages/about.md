@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hui-Jhong ("Hugh") Choi"
+title: "Hui-Jhong (\"Hugh\") Choi"
 author_profile: true
 redirect_from: 
   - /about/
