@@ -75,10 +75,10 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
+  workingpapers:
     title: 'Working Papers'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Publications'    
   conferences:
     title: 'Conference Papers'
 
