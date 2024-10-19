@@ -23,8 +23,8 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Hui-Jhong (Hugh) Choi"
-  pronouns         : "he/his" # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  pronouns         : # example: "she/her"  
+  bio              : "2nd year Finance Phd student at Rochester (Simon)"
   location         : "Rochester, NY"
   employer         : "University of Rochester"
   uri              : # URL
