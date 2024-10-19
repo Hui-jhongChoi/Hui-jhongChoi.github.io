@@ -34,7 +34,7 @@
       {% endif %}
 
       {% if post.coauthors %}
-    (with {{ post.coauthors }}) <!-- Display co-authors with "with" in parentheses -->
+    <span class="unbold-coauthor">(with {{ post.coauthors }})</span> <!-- Wrap the co-author name in a span -->
   {% endif %}
     </h2>
     
