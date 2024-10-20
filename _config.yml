@@ -12,9 +12,9 @@ title                    : "Hui-Jhong (Hugh) Choi"
 title_separator          : "-"
 name                     : &name "Hui-Jhong Choi"
 description              : &description "Hui-Jhong Choi"
-url                      : "https://Hui-jhongChoi.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://hui-jhongchoi.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/index" # the subpath of your site, e.g. "/blog"
-repository               : "Hui-jhongChoi/Hui-jhongChoi.github.io"
+repository               : "Hui-jhongChoi/hui-jhongchoi.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
