@@ -5,8 +5,8 @@ category: workingpapers
 permalink: /research/2023-12-18 Inflation Uncertainty
 excerpt: 'In this study, we investigate the factors that possess information on future inflation uncertainty among many macroeconomic and uncertainty indices. Contrary to prior studies suggesting that the inflation level is essentially a unique factor explaining inflation uncertainty, our findings reveal that survey inflation expectations and the capacity utilization rate are significantly more relevant in terms of predictability.
 '
-# date: 2023
-status: 'R&R (2nd round)'
+# date: 2025
+status: 'Accepted'
 venue: 'Journal of Financial Econometrics'
 link: ''  # Link to the external website
 coauthors: "Kyu Ho Kang"
