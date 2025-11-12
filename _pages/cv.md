@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-Here is my [CV]( {{ base_path }}/files/Hui_Jhong_Choi___CV.pdf ) for download.
+Here is my [CV]( {{ base_path }}/files/Hui_Jhong_Choi___CV__Public_.pdf ) for download.
