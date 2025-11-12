@@ -1,12 +1,11 @@
 ---
 title: "Finding Inflation Uncertainty Factors: A Sparse Stochastic Volatility Approach"
 collection: research
-category: workingpapers
-permalink: /research/2023-12-18 Inflation Uncertainty
-excerpt: 'In this study, we investigate the factors that possess information on future inflation uncertainty among many macroeconomic and uncertainty indices. Contrary to prior studies suggesting that the inflation level is essentially a unique factor explaining inflation uncertainty, our findings reveal that survey inflation expectations and the capacity utilization rate are significantly more relevant in terms of predictability.
-'
+category: publications
+permalink: [/research/2023-12-18 Inflation Uncertainty](https://academic.oup.com/jfec/article-abstract/23/4/nbaf016/8212035?redirectedFrom=fulltext)
+excerpt: ''
 # date: 2025
-status: 'Conditionally Accepted'
+status:
 venue: 'Journal of Financial Econometrics'
 link: ''  # Link to the external website
 coauthors: "Kyu Ho Kang"
