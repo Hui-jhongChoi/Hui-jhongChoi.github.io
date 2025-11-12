@@ -7,7 +7,7 @@ excerpt: ''
 # date: 2025
 status:
 venue: 'Journal of Financial Econometrics'
-link: ''  # Link to the external website
+link: 'https://academic.oup.com/jfec/article-abstract/23/4/nbaf016/8212035?redirectedFrom=fulltext'  # Link to the external website
 coauthors: "Kyu Ho Kang"
 slidesurl: # 'https://example.com/full-paper-link'  # Link to the external website
 paperurl: # 'https://example.com/full-paper-link'  # Link to the external website
