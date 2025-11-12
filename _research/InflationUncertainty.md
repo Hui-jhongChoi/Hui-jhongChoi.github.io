@@ -1,7 +1,7 @@
 ---
 title: "Finding Inflation Uncertainty Factors: A Sparse Stochastic Volatility Approach"
 collection: research
-category: publications
+category: manuscripts
 permalink: 
 excerpt: ''
 # date: 2025
