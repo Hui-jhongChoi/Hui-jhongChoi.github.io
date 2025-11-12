@@ -2,7 +2,7 @@
 title: "Finding Inflation Uncertainty Factors: A Sparse Stochastic Volatility Approach"
 collection: research
 category: publications
-permalink: [/research/2023-12-18 Inflation Uncertainty](https://academic.oup.com/jfec/article-abstract/23/4/nbaf016/8212035?redirectedFrom=fulltext)
+permalink: https://academic.oup.com/jfec/article-abstract/23/4/nbaf016/8212035?redirectedFrom=fulltext
 excerpt: ''
 # date: 2025
 status:
