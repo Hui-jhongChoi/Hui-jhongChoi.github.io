@@ -1,0 +1,169 @@
+/* ==========================================================================
+   Home page (single page with Research and CV sections)
+   Styling follows ycabossioras.github.io
+   ========================================================================== */
+
+/* University of Rochester official colors (brand.rochester.edu/visual-identity/color-system) */
+$ur-navy: #001E5F;     // URochester Navy: headings, buttons
+$ur-blue: #021BC3;     // Meliora Blue: links
+
+.home {
+  @include breakpoint($large) {
+    @include span(10 of 12 last);
+    @include prefix(0.5 of 12);
+  }
+
+  a {
+    color: $ur-blue;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+/* Photo on the left, bio on the right; stacked on small screens */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+
+  .left-column {
+    flex: 0 0 40%;
+    max-width: 300px;
+    padding: 15px;
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+  }
+
+  .right-column {
+    flex: 0 0 60%;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+
+    .left-column,
+    .right-column {
+      flex-basis: auto;
+    }
+  }
+}
+
+.adjust-title {
+  color: $ur-navy;
+  margin-bottom: 20px;
+}
+
+/* Sections the top nav scrolls to (offset for the fixed masthead) */
+.home-section {
+  scroll-margin-top: 70px;
+  margin-top: 2em;
+}
+
+.paper {
+  margin-bottom: 1.5em;
+}
+
+.paper-title {
+  font-family: $header-font-family;
+  font-size: $type-size-5;
+  font-weight: bold;
+  color: #000;
+}
+
+.home a.paper-title-link {
+  color: #000;
+}
+
+/* Small label above each paper title: Published / Working Paper / Work in Progress */
+.paper-tag {
+  display: inline-block;
+  margin-bottom: 0.3em;
+  padding: 0.1em 0.6em;
+  border: 1px solid $ur-navy;
+  border-radius: 3px;
+  font-size: $type-size-7;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+
+.paper-tag--published {
+  background-color: $ur-navy;
+  color: #fff;
+}
+
+.paper-tag--working {
+  color: $ur-navy;
+}
+
+.paper-tag--wip {
+  border-color: #707070;
+  color: #707070;
+}
+
+/* Outlined buttons under each paper (Journal, Slides, ...) */
+.paper-links {
+  margin-top: 0.5em;
+}
+
+.home .paper-btn {
+  display: inline-block;
+  margin: 0 0.5em 0 0;
+  padding: 0.15em 0.8em;
+  border: 1px solid $ur-navy;
+  border-radius: 4px;
+  background: none;
+  color: $ur-navy;
+  font-family: inherit;
+  font-size: $type-size-6;
+  font-weight: bold;
+  line-height: 1.5;
+  vertical-align: baseline;
+  cursor: pointer;
+
+  &:hover,
+  &.is-open {
+    background-color: $ur-navy;
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+/* Plain note beside the buttons, e.g. "Draft coming soon" */
+.paper-note {
+  color: #707070;
+  font-size: $type-size-6;
+  font-style: italic;
+}
+
+.abstract {
+  margin-top: 10px;
+  margin-left: 40px;
+  border-left: 3px solid #ccc;
+  padding-left: 15px;
+
+  span {
+    color: $ur-navy;
+    font-weight: bold;
+  }
+}
+
+.icon-pad-right {
+  padding-right: 0.2em;
+  margin-right: 0.2em;
+}
+
+vdiv {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}

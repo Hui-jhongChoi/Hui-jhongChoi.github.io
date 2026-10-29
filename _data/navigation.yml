@@ -9,7 +9,7 @@ main:
 #    url: /publications/
 
   - title: "Research"
-    url: /research/
+    url: /#research
 
 #  - title: "Talks"
 #    url: /talks/    
@@ -24,7 +24,7 @@ main:
 #    url: /year-archive/
     
   - title: "CV"
-    url: /cv/
+    url: /files/Hui_Jhong_Choi_CV.pdf
     
 #  - title: "Guide"
 #    url: /markdown/
