@@ -8,6 +8,11 @@ $ur-navy: #001E5F;     // URochester Navy: headings, buttons
 $ur-blue: #021BC3;     // Meliora Blue: links
 
 .home {
+  /* Slightly smaller text than the theme default (18px) on larger screens */
+  @include breakpoint($medium) {
+    font-size: 0.9em;
+  }
+
   @include breakpoint($large) {
     @include span(10 of 12 last);
     @include prefix(0.5 of 12);
